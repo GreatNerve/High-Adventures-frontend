@@ -23,7 +23,7 @@ export default function HomePageBanner() {
                         </h1>
 
                         <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                            Explore the best places to travel, stay, and live. Discover your next adventure with us. We have a wide range of options to suit every taste and budget, from luxurious hotels to cozy vacation rentals.
                         </p>
 
                         <div className="mt-8 flex flex-wrap gap-4 text-center">
