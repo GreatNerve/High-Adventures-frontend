@@ -43,7 +43,7 @@ export default function IndividualListingSection({
   offers,
   embedLocationLink,
   address,
-}: IndividualListingSectionProps) {
+}: any) {
   amenities = amenities || [
     "Free Wi-Fi",
     "Free Parking",

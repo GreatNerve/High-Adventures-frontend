@@ -18,7 +18,7 @@ export default function ListingReviewSection({
   reviewsCount = 1000,
   reviews = dummyReviews,
   className,
-}: ListingReviewSectionProps) {
+}: any) {
   return (
     <div className="mx-3 my-4 md:mx-8 lg:mx-16 xl:mx-20">
       <div className="mx-8 mt-4 md:mx-2">

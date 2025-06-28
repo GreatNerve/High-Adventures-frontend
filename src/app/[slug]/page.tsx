@@ -9,7 +9,7 @@ import { PriceFormat, PercentageFormat } from "@/lib/formater";
 export default function Page({ params }: { params: { slug: string } }) {
   return (
     <div className="mt-4 md:mt-8 lg:mt-12 xl:mt-16">
-      <IndividualListingSection />
+      <IndividualListingSection  />
       <ListingReviewSection />
     </div>
   );

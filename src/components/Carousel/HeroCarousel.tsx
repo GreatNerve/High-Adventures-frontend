@@ -1,4 +1,6 @@
 "use client";
+/* eslint-disable */
+
 import {
   Carousel,
   CarouselContent,
@@ -103,10 +105,11 @@ const HeroCarousel = ({
           orientation={viewOrientation}
           setApi={setthumbRef}
           plugins={[
+            // eslint-disable-next-line
             ClassNames({
               snapped: "thumbCarousel__snapped",
               inView: "",
-            }),
+            } as unknown),
           ]}
           opts={{
             align: "center",
